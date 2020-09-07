@@ -1,0 +1,11 @@
+1.Generate a random word.
+	-a. Show something like "_ _ _ _ _"
+2.Player guess.
+	-ia. Correct: show the letter
+	-ib. Incorrect: show information and lives lose.
+3.Check result.
+	-ia.player dead:
+		1>.Game over
+	-ib.player alive:
+		1>. word guess accomplish: win
+		2>. unaccomplish: goto 2.
